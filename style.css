@@ -16,7 +16,7 @@ main{
     color:#FF5400 ;
 }
 .btn-primary{
-    padding: 15px 20px ;
+    padding: 15px 25px ;
     border-radius: 8px;
     background: #FF5400;
     border: 0;
@@ -84,6 +84,7 @@ nav{
 .banner-container p{
     color: #FFF;
     line-height: 1.6rem;
+    text-align: center;
 }
 .input-section{
     display:flex;
@@ -136,6 +137,32 @@ nav{
     margin-left: 30px;
 }
 /* Our Popular Tours end */
+/* We Offer Best Services section start */
+.our-best-service{
+  text-align: center; 
+   margin:50px 0 ;
+}
+.best-services{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.best-service1,
+.best-service2,
+.best-service3,
+.best-service4
+{
+    max-width:320px ;
+    padding: 40px;
+    border-radius: 47px;
+    background:#FFF;
+    box-shadow: 5px 2.463px 7.187px 6px rgba(0, 0, 0, 0.6);
+
+}
+
+
+/* We Offer Best Services section end */
 
 /* Choose Your Destination section  start */
 .destination-section{
@@ -152,7 +179,7 @@ nav{
    gap:24px ;
     grid-template-areas:
      " a a a a a a b b b b b b"
-     " c c c c d d d d d d e  e "
+     " c c c c d d d d d e e  e "
      " f f  f f f g g g g g g g"
      ;
      grid-template-columns: repeat(12, 1fr);
@@ -204,7 +231,49 @@ nav{
     grid-area: g;
 }
 /* Choose Your Destination section  end */
+/* Top Destinations start  */
+.top-destination-section {
 
+    margin-top: 50px;
+}
+
+
+.top-destination-section h1,h3 ,p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.top-selling-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.top-selling-container div> img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+   
+}
+.places{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: #5E6282;
+   padding-top: 30px;
+
+}
+.days{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5E6282;
+}
+.top-content{
+    border-radius: 0px 0px 31.923px 31.923px;
+     background: #fcf4f4;
+     padding-bottom: 15px;
+}
+/* Top Destinations end  */
 /* Why Choose Us start */
 .why-choose-us{
     margin-top: 100px;
@@ -255,8 +324,14 @@ nav{
 
 /* Deals & Discounts section start */
 .deals-discounts-section{
-    /* text-align: center; */
+   
     margin-top: 50px;
+}
+.deals-discounts-section>h1{
+text-align: center;
+}
+.deals-discounts-section>p{
+    text-align: center;
 }
 .deals-1{
     min-height: 500px;
@@ -514,7 +589,7 @@ footer> p{
             max-width: 300px;
             max-height: 300px;
             bottom: 0;
-            right: 20%;
+            right: 10%;
             padding: 20px;
             margin:16px;
             gap: 10px;
