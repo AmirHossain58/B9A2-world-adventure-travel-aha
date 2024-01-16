@@ -54,7 +54,7 @@ body{
 /* nav styles end */
 /* banner styles start */
 .banner-container{
-    background-image: url(./images/group-13.png);
+    background-image: url(./Images/group-13.png);
     background-size: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ body{
 }
 .deals-1{
     min-height: 500px;
-    background-image: url(./images/group-39.png);
+    background-image: url(./Images/group-39.png);
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
@@ -327,7 +327,7 @@ body{
         align-items: center;
     }.banner-container{
        padding-bottom: 32px;
-      background-image: url(./images/group-131.png);
+      background-image: url(./Images/group-131.png);
       background-size: cover;
     }
 
@@ -367,7 +367,7 @@ body{
            
         }
         .deals-1{
-            background-image: url(./images/group-391.png);
+            background-image: url(./Images/group-391.png);
             background-size: cover;
           border-radius: 16px;
         }
